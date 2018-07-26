@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/CategoryStyle"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/main_heading"
+        />
+
+    <TextView
+    android:id="@+id/sports"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+        android:text="@string/main_sports"
+    />
+
+
+    <TextView
+
+        android:id="@+id/restaurants"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:paddingTop="18dp"
+        android:text="@string/main_restaurants"
+    />
+
+    <TextView
+        android:id="@+id/museums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="@string/main_museums"
+        />
+
+    <TextView
+        android:id="@+id/parks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="@string/main_parks"
+        />
+</LinearLayout>

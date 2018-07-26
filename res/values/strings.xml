@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+    <string name="main_heading">Rochester, NY\nHome of\nThe Rochester Red Wings</string>
+    <string name="main_sports">Sports</string>
+    <string name="main_restaurants">Restaurants</string>
+    <string name="main_museums">Museums</string>
+    <string name="main_parks">Parks</string>
+</resources>
